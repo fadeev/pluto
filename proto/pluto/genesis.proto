@@ -1,0 +1,9 @@
+syntax = "proto3";
+package pluto.pluto;
+
+option go_package = "github.com/fadeev/pluto/x/pluto/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
